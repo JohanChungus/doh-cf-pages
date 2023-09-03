@@ -22,7 +22,7 @@ export const onRequestGet = async ({request}) => {
             }
         });
     } else {
-        return new Response("", {status: 404})
+        return new Response("upss", {status: 404})
     }
 
 }
